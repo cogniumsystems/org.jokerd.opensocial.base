@@ -203,7 +203,7 @@ public class DynamicActivityCursorProvider {
         log.log(Level.WARNING, msg, t);
     }
 
-    private final IAcitivitiesCache fCache;
+    private final IActivitiesCache fCache;
 
     private final IActivityCursorProvider fProvider;
 

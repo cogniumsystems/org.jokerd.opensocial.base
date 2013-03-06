@@ -13,7 +13,7 @@ import org.ubimix.commons.cursor.FilteringCursor;
 /**
  * @author kotelnikov
  */
-public abstract class ActivitiesCache implements IAcitivitiesCache {
+public abstract class ActivitiesCache implements IActivitiesCache {
 
     /**
      * @author kotelnikov

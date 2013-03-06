@@ -6,7 +6,7 @@ import org.jokerd.opensocial.api.model.ObjectId;
 import org.jokerd.opensocial.cursors.IActivityCursor;
 import org.jokerd.opensocial.cursors.StreamException;
 
-public interface IAcitivitiesCache {
+public interface IActivitiesCache {
 
     IActivityCursor getActivities(Set<ObjectId> sourceIds)
         throws StreamException;
